@@ -75,4 +75,4 @@ const requisicao = async ({ page = 1 } = {}) => {
   return parseResponse(page, await request.get());
 };
 
-module.exports = requisicao;
+export default requisicao;

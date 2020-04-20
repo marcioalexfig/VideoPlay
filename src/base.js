@@ -13,4 +13,4 @@ const base = {
   createRequest,
 };
 
-module.exports = base;
+export default base;
