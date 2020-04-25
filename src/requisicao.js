@@ -1,4 +1,4 @@
-const base = require('./base');
+import base from './base';
 const cheerio = require('cheerio');
 
 const PATH = '/new';
